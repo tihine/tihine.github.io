@@ -18,13 +18,6 @@ header {
     padding: 20px;
 }
 
-header img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Centre l'image horizontalement */
-}
-
 /* Styles pour le titre */
 h1 {
     font-size: 24px;
@@ -33,44 +26,6 @@ h1 {
 /* Styles pour les informations personnelles */
 p {
     font-size: 16px;
-}
-
-/* Styles pour la section de projets */
-.projets {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px;
-}
-
-.projet {
-    width: 300px;
-    background-color: #fff;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.projet img {
-    max-width: 100%;
-}
-
-.projet h2 {
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.projet p {
-    font-size: 14px;
-}
-
-/* Styles pour les pages de projet individuelles */
-.projet-detail {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Styles pour les sections de contenu */
@@ -83,6 +38,7 @@ p {
 
 /* Styles pour les titres des sections */
 h2 {
+    text-align: left;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -138,7 +94,12 @@ h2 {
     text-align: left;
 }
 
-/* Styles pour le lien PDF */
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Aligner les boutons en ligne */
+    margin: 0 10px; /* Ajouter une marge horizontale entre les boutons */
+}
 .pdf-link {
     text-align: center;
     margin-top: 20px;
@@ -164,14 +125,4 @@ h2 {
     content: "\f1c1"; /* Utilisation de l'icône du bouton PDF (icône Adobe Acrobat) */
     font-family: FontAwesome;
     margin-left: 10px;
-}
-
-/* Styles pour les liens dans les pages de projet */
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
