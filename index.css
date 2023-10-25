@@ -18,6 +18,10 @@ header {
     padding: 20px;
     background-color: rgb(17, 13, 0);
     color:#fff;
+    margin-bottom: 30px;
+}
+Personal{
+    margin-top: 30px;
 }
 
 /* Styles pour le titre */
@@ -29,7 +33,6 @@ h1 {
 p {
     font-size: 16px;
 }
-
 
 /* Styles pour la section de projets */
 .projets {
@@ -105,10 +108,25 @@ p {
 
 /* Styles pour les liens dans les pages de projet */
 a {
-    color: #007BFF;
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Styles pour le bouton */
+.projet-details {
+    background-color: #007BFF; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espace intérieur (padding) du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur au survol du bouton */
+}
+
+/* Style au survol du bouton */
+.projet-details:hover {
+    background-color: #0056b3; /* Couleur de fond légèrement différente au survol */
 }
