@@ -25,9 +25,17 @@ Personal {
     margin-top: 30px;
 }
 
+/* Styles pour la barre horizontale */
+.barre-horizontale {
+    width: 50vw; /* Largeur de la barre (50% de la largeur de l'écran) */
+    height: 2px; /* Hauteur de la barre */
+    background-color: rgb(17,13,0); /* Couleur de fond de la barre */
+    margin:30px auto; /* Centre la barre horizontale sur la page */
+}
+
 /* Styles pour le titre */
 h1 {
-    font-size: 24px;
+    font-size: 48px;
 }
 
 h2 {
