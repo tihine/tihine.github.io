@@ -73,15 +73,25 @@ const projects = [
         detailsLink:"shoot_them_up.html",
         tags:["Dev"]
     }
-    // Add more projects as needed
 ];
+
+const tagColors = {
+    Dev: '#06bcc1ff',
+    Prod: '#f3a712ff',
+    GD: '#76D300',
+    GameJam: '#FF38ED',
+    XPpro: '#a233ff'
+};
+function getTagColor(tag) {
+    return tagColors[tag] || '#cccccc'; // Default color if tag is not found
+}
 
 const projetsContainer = document.getElementById('projets');
 
 projects.forEach(project => {
     const projetElement = document.createElement('div');
     projetElement.classList.add('projet');
-    const tagsHTML = project.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
+    const tagsHTML = project.tags.map(tag => `<span class="tag" style="background-color: ${getTagColor(tag)};">${tag}</span>`).join('');
 
     projetElement.innerHTML = `
         <div class="projet-inner">
