@@ -55,7 +55,7 @@ h2 {
 
 /* Styles pour les liens vers GitHub */
 .github a {
-    color: #007BFF;
+    color: var(--color-primary);
     text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ h2 {
 .pdf-link a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: var(--color-primary);
     color: #fff;
     text-decoration: none;
     border: none;

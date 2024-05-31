@@ -1,0 +1,12 @@
+/* variables.css */
+:root {
+    --color-primary: #06bcc1ff;
+    --color-secondary: #f3a712ff;
+    --color-accent: #f3a712ff;
+    --color-background: #12263aff;
+    --color-text-light: #ecf0f1;
+    --color-text-dark: #34495e;
+    --color-warning: #f3a712ff;
+    --color-info: #06bcc1ff;
+    /* Add more colors as needed */
+}
