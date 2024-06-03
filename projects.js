@@ -50,8 +50,8 @@ const projects = [
         tags:["Art"]
     },
     {
-        img:'',
-        alt:'',
+        img:'Pictures/lvl3Platformer.png',
+        alt:'Level 3 of Platformer',
         name:'Platformer 2D',
         role:'Dev & LD',
         detailsLink:"platformer_2d.html",
